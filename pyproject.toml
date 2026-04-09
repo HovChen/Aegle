@@ -1,0 +1,44 @@
+[project]
+name = "aegle"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "google>=3.0.0",
+    "ollama>=0.6.0",
+    "openai>=2.6.1",
+    "torch==2.6.0+cu124",
+    "torchvision==0.21.0+cu124",
+    "torchaudio==2.6.0+cu124",
+    "google-generativeai>=0.8.5",
+    "python-dotenv>=1.0.0",
+    "pytest>=8.4.2",
+    "langgraph>=1.0.3",
+    "langchain>=1.0.7",
+    "langchain-deepseek>=1.0.1",
+    "langchain-core>=1.0.5",
+    "langchain-openai>=1.0.3",
+    "langchain-community>=0.4.1",
+    "langgraph-cli[inmem]>=0.4.7",
+    "ddgs>=9.9.1",
+    "wikipedia>=1.4.0",
+    "importlib-metadata>=8.7.0",
+    "accelerate>=1.12.0",
+    "matplotlib>=3.10.8",
+    "sacrebleu>=2.5.1",
+    "rouge-score>=0.1.2",
+    "dashscope>=1.25.4",
+    "seaborn>=0.13.2",
+    "qwen-vl-utils>=0.0.14",
+]
+
+[[tool.uv.index]]
+name = "pytorch-cu124"
+url = "https://download.pytorch.org/whl/cu124"
+explicit = true
+
+[tool.uv.sources]
+torch = [{ index = "pytorch-cu124" }]
+torchvision = [{ index = "pytorch-cu124" }]
+torchaudio = [{ index = "pytorch-cu124" }]
