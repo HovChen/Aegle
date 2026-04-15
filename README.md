@@ -94,7 +94,7 @@ This project is built with and inspired by the open-source ecosystem, including:
 - [LangChain](https://github.com/langchain-ai/langchain)
 - [LangGraph](https://github.com/langchain-ai/langgraph)
 
-# 🖊️ Citation
+## 🖊️ Citation
 
 If you find Aegle helpful in your research, please cite our paper:
 
