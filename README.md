@@ -99,10 +99,13 @@ This project is built with and inspired by the open-source ecosystem, including:
 If you find Aegle helpful in your research, please cite our paper:
 
 ```bibtex
-@inproceedings{chen-etal-2026-beyond,
-  title={Beyond the Individual: Virtualizing Multi-Disciplinary Reasoning for Clinical Intake via Collaborative Agents},
-  author={Chen, Huangwei and Li, Wu and Jia, Junhao and Chen, Yining and Pang, Xiaotao and Chen, Yalong and Li, Gonghui and Wang, Haishuai and Bu, Jiajun and Wu, Lei},
-  booktitle={Findings of the Association for Computational Linguistics: ACL 2026},
-  year={2026}
+@misc{chen2026beyond,
+      title={Beyond the Individual: Virtualizing Multi-Disciplinary Reasoning for Clinical Intake via Collaborative Agents}, 
+      author={Huangwei Chen and Wu Li and Junhao Jia and Yining Chen and Xiaotao Pang and Ya-Long Chen and Li Gonghui and Haishuai Wang and Jiajun Bu and Lei Wu},
+      year={2026},
+      eprint={2604.08927},
+      archivePrefix={arXiv},
+      primaryClass={cs.MA},
+      url={https://arxiv.org/abs/2604.08927}, 
 }
 ```
